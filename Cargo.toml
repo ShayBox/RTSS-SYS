@@ -8,7 +8,6 @@ readme = "README.md"
 homepage = "https://github.com/ShayBox/RTSS-SYS/blob/master/README.md"
 repository = "https://github.com/ShayBox/RTSS-SYS"
 license = "MIT"
-license-file = "LICENSE"
 keywords = ["riva", "tuner", "rivatuner", "statistics", "server"]
 categories = ["external-ffi-bindings"]
 
