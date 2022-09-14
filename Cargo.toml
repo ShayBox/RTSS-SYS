@@ -1,0 +1,16 @@
+[package]
+name = "rtss-sys"
+version = "0.1.0"
+authors = ["Shayne Hartford <shaybox@shaybox.com>"]
+edition = "2021"
+description = "RivaTuner Statistics Server SDK Rust bindings"
+readme = "README.md"
+homepage = "https://github.com/ShayBox/RTSS-SYS/blob/master/README.md"
+repository = "https://github.com/ShayBox/RTSS-SYS"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["riva", "tuner", "rivatuner", "statistics", "server"]
+categories = ["external-ffi-bindings"]
+
+[build-dependencies]
+bindgen = "0.60.1"
