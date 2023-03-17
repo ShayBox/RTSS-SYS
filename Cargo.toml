@@ -1,6 +1,6 @@
 [package]
 name = "rtss-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Shayne Hartford <shaybox@shaybox.com>"]
 edition = "2021"
 description = "RivaTuner Statistics Server SDK Rust bindings"
@@ -12,4 +12,4 @@ keywords = ["riva", "tuner", "rivatuner", "statistics", "server"]
 categories = ["external-ffi-bindings"]
 
 [build-dependencies]
-bindgen = "0.60.1"
+bindgen = "0.64.0"
