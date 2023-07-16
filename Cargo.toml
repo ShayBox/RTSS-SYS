@@ -1,15 +1,17 @@
 [package]
 name = "rtss-sys"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Shayne Hartford <shaybox@shaybox.com>"]
 edition = "2021"
 description = "RivaTuner Statistics Server SDK Rust bindings"
 readme = "README.md"
-homepage = "https://github.com/ShayBox/RTSS-SYS/blob/master/README.md"
 repository = "https://github.com/ShayBox/RTSS-SYS"
 license = "MIT"
 keywords = ["riva", "tuner", "rivatuner", "statistics", "server"]
 categories = ["external-ffi-bindings"]
 
 [build-dependencies]
-bindgen = "0.64.0"
+bindgen = "0.66"
+
+[dependencies]
+windows = { version = "0.48", features = ["Win32_Foundation", "Win32_System_Memory", "Win32_UI_WindowsAndMessaging"] }
