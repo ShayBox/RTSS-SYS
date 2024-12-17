@@ -11,7 +11,7 @@ keywords = ["riva", "tuner", "rivatuner", "statistics", "server"]
 categories = ["external-ffi-bindings"]
 
 [build-dependencies]
-bindgen = "0.66"
+bindgen = "0.71"
 
 [dependencies]
-windows = { version = "0.48", features = ["Win32_Foundation", "Win32_System_Memory", "Win32_UI_WindowsAndMessaging"] }
+windows = { version = "0.58", features = ["Win32_System_Memory", "Win32_UI_WindowsAndMessaging"] }
